@@ -1,0 +1,225 @@
+body{
+    position: absolute;
+    background-color: rgba(248, 144, 47, 0.774);
+    opacity: 2;
+}
+.Bloque1{
+    background-color: rgb(245, 109, 47);
+    margin: 40px;
+    height: 95px;
+    width: 1700px;
+    position: relative;
+    font-size: 2cm;
+    text-align: center;
+    font-family: broadway;
+    top: 10px;      
+    }
+.redessociales{
+    background-color: rgb(109, 109, 109);
+    right: 40px;
+    position: absolute;
+    top: 160px;
+    font-size: 25px;
+}
+.navegador{
+    float: left;
+    font-size: 22px;
+    margin-right: 20px;
+
+}
+#bloque2{
+    background-color: rgba(255, 255, 255, 0.918);
+    width: 230px;
+    height: 48px;
+    padding: 10px 12px;
+    border-bottom: rgb(236, 135, 41) 10px solid;
+    
+}
+.imagen1{
+    background-color: silver;
+    width: 1754px;
+    height: 150px;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    float: left;
+    margin: 15px;
+}
+.subtitulo{
+    background-color:rgba(194, 96, 50, 0.884);
+    width: 1762px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    margin: 13px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(239, 249, 250);
+    margin-left: 10px;
+}
+.finaltexto{
+    background-color: rgb(12, 11, 11);
+    top: 770px;
+    right: 38px;
+    font-size: 25px;
+    position: absolute;
+    color: blanchedalmond;
+}
+.contenedor2{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 1782px;
+    margin-top: 20px;
+    margin-left: 38px;
+    height: 1400px;
+}
+.texto{
+    width: 900px;
+    float: left;
+    font-size: 25px;
+    margin: 30px;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.imagen2{
+    background-color: aquamarine;
+    width: 800px;
+    height: 450px;
+    position:relative;
+    float:right;
+    right: 10px;
+    bottom: 580px;
+}
+.textosint {
+    float: auto;
+    font-size: 46px;
+    position: relative;
+    text-align: right;
+    left: 720px;
+}
+
+.subtitulo2{
+    background-color: rgba(194, 96, 50, 0.884);
+    width: 1762px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    float: right;
+    margin: 13px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.bloque3 {
+    background-color: rgb(253, 254, 255);
+    width: 250px;
+    height: 75px;
+    padding: 20px 20px;
+    border-bottom: rgb(226, 120, 21) 10px solid;
+
+}
+.imagen3 {
+    background-color: aquamarine;
+    width: 1000px;
+    height: 450px;
+    position:relative;
+    float:left;
+    bottom: 450px;
+    left: 10px;
+
+}
+     
+    
+
+br{
+    clear: both;
+}
+.Final1{
+    background-color: rgba(255, 245, 245, 0.945);
+    width: 565px;
+    height: 240px;
+    left: 90px;
+    margin-right: 20px;
+    margin-top: 25px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 37px;
+}
+.Final2{
+    background-color: rgba(255, 245, 245, 0.945);
+    width: 565px;
+    height: 240px;
+    left: 100px;
+    margin: 25px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+}
+.Final3{
+    background-color: rgba(255, 245, 245, 0.945);
+    width: 560px;
+    height: 240px;
+    left: 100px;
+    margin: 25px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.nav li a:hover{
+    background-color: rgb(255, 158, 30);
+}
+.nav > li {
+    float: left;
+}
+ul {
+    list-style: none;
+}
+.Bloque1 {
+    background-image: url("https://www.fillmurray.com/200/300");
+    /* Full height */
+    height: 35vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(80%);
+    transition: all 1s ease 0s;
+}
+.Bloque1 div span  {
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease 0s;
+}
+.Bloque1 .T, .R {
+    color: white;
+    font-size: 100px;
+    padding: 10px;
+    transition: all 1s ease 0s;
+}
+.Bloque1 .R {
+    display: none;
+}
+.Bloque1:hover {
+    background: white;
+    font-size: 120px;
+    padding: 40px;
+    transition: all 1s ease 0s;
+}
+.Bloque1:hover .R {
+    display: inline;
+}
+.Bloque1:hover .T {
+    display: none;
+}
+.Bloque1:hover .R {
+    color: rgb(155, 82, 82);
+    font-size: 100px;
+    padding: 10px;
+    transition: all 1s ease 0s;
+}
