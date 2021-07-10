@@ -4,83 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COVID-19</title>
-    <link rel="icon" type="images/jpeg" href="C:\Users\Andre\OneDrive\Documentos\GitHub\work3\images\achis.jpg">
+    <title>Facebook</title>
     <link type="text/css" rel="stylesheet" href="css/chamba.css">
 </head>
 <body>
-    <header class="Bloque1">INFORMACIÓN BÁSICA SOBRE LA COVID-19 
-            
-    </header>
-    <nav class="navegador">
-        <ul class="nav">
-           <li><div id="bloque2"><a>Más Información</a></div></li>
-            <li><div id="bloque2"><a>Emergencias</a></div></li>
-            <li><div id="bloque2"><a>Pruebas rápidas</a></div></li>
-            <li><div id="bloque2"><a>CITA RÁPIDA</a></div></li>
-            <li><div id="bloque2"><a>CITA VIRTUAL</a></div></li>
-            <li><div id="bloque2"><a>PAGOS</a></div></li>
-            <li><div id="bloque2"><a>CONTACTANOS</a></div></li>
-        </ul>    
-    </nav>
-        <section class="contenedor2">
-            <div class="imagen1" title="coronavirus"></div>
-            <div class="subtitulo"><b>Qué es la Covid-19</b></div>
-            <section class="texto">La COVID-19 es la enfermedad causada por el nuevo coronavirus conocido como SARS-CoV-2. 
-                La OMS tuvo noticia por primera vez de la existencia de este nuevo virus el 31 de diciembre de 2019, al ser informada de un grupo
-                 de casos de «neumonía vírica» que se habían declarado en Wuhan (República Popular China).Entre las personas que desarrollan síntomas, la mayoría (alrededor del 80%) se recuperan de la enfermedad sin necesidad de recibir tratamiento hospitalario. Alrededor del 15% desarrollan una enfermedad grave y requieren oxígeno y el 5% llegan a un estado crítico y precisan cuidados intensivos.
-
-                 Entre las complicaciones que pueden llevar a la muerte se encuentran la insuficiencia respiratoria, el síndrome de dificultad respiratoria aguda, la septicemia y el choque septicémico, la tromboembolia y/o la insuficiencia multiorgánica, incluidas las lesiones cardíacas, hepáticas y renales.
-                 
-                 Rara vez, los niños pueden manifestar un síndrome inflamatorio grave unas semanas después de la infección.</section><br>
-                 <div class="subtitulo2"><b>Síntomas</b></div>
-                 <div class="imagen2" title="covid-19"></div>
-            <section class="textosint">
-                <ul class="navi">
-                    <li><div id="bloque3">Fiebre</div></li>
-                    <li><div id="bloque3">Tos Seca</div></li>
-            <li><div id="bloque3">Cansancio</div></li>
-            <li><div id="bloque3">Pérdida del gusto o del olfato</div></li>
-            <li><div id="bloque3">Congestión nasal</div></li>
-            <li><div id="bloque3">Conjuntivitis</div></li>
-            <li><div id="bloque3">Dolor de garganta</div></li>
-            <li><div id="bloque3">Dolor de cabeza</div></li>
-                 </ul>
-            </section>
-            <div class="imagen3" title="covid-19"></div>
-                
-       </section>
-       <br>
-       <footer>
-           <div class="Final1"> <iframe width="560" height="240" src="https://www.youtube.com/embed/yKC-gWxBQ8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-           <div class="Final2"><img src="images/clinica.png" width="560" height="240"></div>
-           <div class="Final3"><iframe width="560" height="240" src="https://www.youtube.com/embed/BqXjH7rOhfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-           
-
-
-       </footer>
-       <style>
-           .Bloque1{
-               background-image: url(images/botellatrasbotella.jpg);
-
-               background-size: 100% 100%
-           }
-           .imagen1{
-               background-image: url(images/chulada.jpg);
-               background-size:20% 100%
-           }
-           .imagen2{
-               background-image: url(images/achis.jpg);
-               background-size: 100% 100%
-           }
-           .imagen3{
-               background-image: url(images/wtafak.jpg);
-               background-size: 100% 100%;
-           }
-        </style>
+    <div id="header_wrapper">
+        <div id="header">
+        <form action="post">
+            <li>Correo electrónico o telefono<br> <input type="text" name="" placeholder="enter username" id="usuario"></li>
+            <li>Contraseña<br> <input type="password" name="" placeholder="enter password" id="contraseña"><br><a href="">Olvido su contraseña?</a></li>
+            <li><input type="button" value="iniciar sesion" id="boton" onclick="login()"></li>
         
-        
+        </form>
         </div>
-       
+       </div>
+
+       <div id="wrapper">
+
+        <div id="div1">
+        <img src="images/fb.PNG.jpeg">
+        </div>
+
+        <div id="div2">
+            <h1>Registrate</h1>
+            <p>Es gratis y siempre lo será.</p>
+            <li><input type="text" placeholder="Nombre" id="firstname"><input type="text" placeholder="Apellido" id="surname"></li>
+            <li><input type="text" placeholder="Tu correo electrónico"></li>
+            <li><input type="text" placeholder="Vuelve a escribir tu Correo"></li>
+            <li><input type="password" placeholder="Contraseña"></li>
+            <p>Fecha de Nacimiento</p>
+            <li>
+            <select><option>Día</option></select>
+            <select><option>Mes</option></select>
+            <select><option>Año</option></select>
+            <a href="">¿Por qué debo proporcionar mi fecha de nacimiento?</a>
+            </li>
+            <li><input type="radio">Femenino <input type="radio">Masculino</li>
+            <li id="terms"> Al hacer clic en Crear una cuenta, acepta nuestros Términos y que leido nuestra <br><a href="">Politica de datos</a> incluido nuestro <a href="">Uso de cookies</a></li>
+            <li><input type="submit" value="Crear Cuenta"></li>
+            <li id="create_page"><a href="">Crea una pagina </a> para una celebridad, una banda o negocio.</li>
+            </div>
+            <script src="js/chambita.js"></script>
+            
+        </div>
+
 </body>
-</html> 
+</html>
